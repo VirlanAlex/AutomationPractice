@@ -27,7 +27,7 @@ public class AutomationPractice {
         loginElement.click();
 
         WebElement email_createElement = driver.findElement(By.id("email_create"));
-        String email_create = "vimev10282@bitmens.com";
+        String email_create = "vimevosty10282@bitmens.com";
         email_createElement.sendKeys(email_create);
 
         WebElement SubmitCreateElement = driver.findElement(By.id("SubmitCreate"));
